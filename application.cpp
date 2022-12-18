@@ -22,5 +22,6 @@ const void Application::Init()
 
 const int Application::Quit()
 {
+    system("pause");
     return 0;
 }
