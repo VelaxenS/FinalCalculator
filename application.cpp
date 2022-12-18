@@ -1,6 +1,10 @@
 #include "application.hpp"
 
 
+/// <summary>
+/// Initializes the program, forms the grade list, gets course info and does the neccessary calculations
+/// </summary>
+/// <returns></returns>
 
 const void Application::Init()
 {
@@ -19,6 +23,11 @@ const void Application::Init()
 
 
 }
+
+/// <summary>
+/// Simply, quitting function.
+/// </summary>
+/// <returns></returns>
 
 const int Application::Quit()
 {
